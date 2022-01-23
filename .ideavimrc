@@ -1,0 +1,15 @@
+set number
+set relativenumber
+set clipboard+=unnamed
+set surround
+set commentary
+
+inoremap jk <Esc>
+inoremap ff <Esc>la
+nnoremap <c-n> :noh
+nnoremap ,r :action Run<CR>
+nnoremap ,d :action Debug<CR>
+nnoremap <c-h> <c-w>h
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+nnoremap <c-l> <c-w>l

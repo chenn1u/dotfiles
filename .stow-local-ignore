@@ -1,0 +1,5 @@
+\.git
+
+# how to use
+# 1. cd ~/.dotfiles && stow .
+# 2. cd ~/Documents/dotfile/ && stow -D .
