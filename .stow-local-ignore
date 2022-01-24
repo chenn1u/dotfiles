@@ -1,5 +1,10 @@
 \.git
 
 # how to use
-# 1. cd ~/.dotfiles && stow .
-# 2. cd ~/Documents/dotfile/ && stow -D .
+# Stow: 
+# 1. cd ~ && rm -rf .zshrc .tmux.conf .ideavimrc .gitconfig .condarc .config/nvim
+# 2. git clone git@github.com:chenn1u/dotfiles.git ~/.dotfiles
+# 3. cd ~/.dotfiles && stow .
+#
+# UnStow: 
+# 1. cd ~/.dotfiles && stow -D .

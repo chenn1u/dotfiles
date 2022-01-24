@@ -4,7 +4,7 @@ require'nvim-treesitter.configs'.setup {
 		"lua",
 	},
 	syrc_install = false,
-	hirhlight = {
+	highlight = {
 		enable = true,
 		additional_vim_regex_highlighting = true,
 	},
