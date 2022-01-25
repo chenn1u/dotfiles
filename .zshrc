@@ -10,12 +10,11 @@ source $ZSH/oh-my-zsh.sh
 
 export LANG=en_US.UTF-8
 
-export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
 export CPPFLAGS="-I/usr/local/opt/openjdk@11/include"
 
 export HOMEBREW_NO_AUTO_UPDATE=true
-# export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles/bottles
 
 export EDITOR='/usr/local/bin/nvim'
