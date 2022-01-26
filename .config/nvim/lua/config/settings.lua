@@ -1,4 +1,5 @@
 vim.opt.number = true
+vim.opt.hidden = true
 vim.opt.relativenumber = true
 vim.opt.termguicolors = true
 vim.opt.hlsearch = false
