@@ -1,5 +1,6 @@
 vim.opt.number = true
 vim.opt.hidden = true
+vim.opt.cmdheight = 2
 vim.opt.relativenumber = true
 vim.opt.termguicolors = true
 vim.opt.hlsearch = false
@@ -11,6 +12,7 @@ vim.opt.showcmd = true
 vim.opt.clipboard = "unnamedplus"
 vim.opt.wildmenu = true
 vim.opt.timeoutlen = 300
+vim.opt.updatetime = 300
 vim.opt.mouse = 'a'
 vim.opt.filetype = 'on'
 vim.opt.fileencoding = 'utf-8'
