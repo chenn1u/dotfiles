@@ -74,6 +74,11 @@ _G.packer_plugins = {
     path = "/Users/nchen/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["SchemaStore.nvim"] = {
+    loaded = true,
+    path = "/Users/nchen/.local/share/nvim/site/pack/packer/start/SchemaStore.nvim",
+    url = "https://github.com/b0o/SchemaStore.nvim"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/Users/nchen/.local/share/nvim/site/pack/packer/start/bufferline.nvim",

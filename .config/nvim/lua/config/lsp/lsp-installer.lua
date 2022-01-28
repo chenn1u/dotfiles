@@ -4,10 +4,10 @@ require("nvim-lsp-installer").on_server_ready(function(server)
 		capabilities = require("config.lsp.handlers").capabilities,
 	}
 
-	 -- if server.name == "jsonls" then
-	 -- 		local jsonls_opts = require("config.lsp.settings.jsonls")
-	 -- 		opts = vim.tbl_deep_extend("force", jsonls_opts, opts)
-	 -- end
+	 if server.name == "jsonls" then
+		local jsonls_opts = require("config.lsp.settings.jsonls")
+		opts = vim.tbl_deep_extend("force", jsonls_opts, opts)
+	 end
 
 	 if server.name == "sumneko_lua" then
 		local sumneko_opts = require("config.lsp.settings.sumneko_lua")
