@@ -12,7 +12,6 @@ vim.opt.showcmd = true
 vim.opt.clipboard = "unnamedplus"
 vim.opt.wildmenu = true
 vim.opt.timeoutlen = 300
-vim.opt.updatetime = 300
 vim.opt.mouse = 'a'
 vim.opt.filetype = 'on'
 vim.opt.fileencoding = 'utf-8'
@@ -24,7 +23,6 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.softtabstop = 4
 vim.opt.syntax = 'on'
-vim.opt.timeout = false
 
 vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]

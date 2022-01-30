@@ -15,7 +15,7 @@ export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
 export CPPFLAGS="-I/usr/local/opt/openjdk@11/include"
 
 export HOMEBREW_NO_AUTO_UPDATE=true
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles/bottles
+# export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles/bottles
 
 export EDITOR='/usr/local/bin/nvim'
 
