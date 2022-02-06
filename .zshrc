@@ -2,7 +2,7 @@ export ZSH="/Users/nchen/.oh-my-zsh"
 
 ZSH_THEME="robbyrussell"
 
-plugins=(zsh-completions zsh-autosuggestions git history-substring-search extract vi-mode zsh-syntax-highlighting)
+plugins=(zsh-completions zsh-autosuggestions git history-substring-search extract zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -19,7 +19,7 @@ export HOMEBREW_NO_AUTO_UPDATE=true
 
 export EDITOR='/usr/local/bin/nvim'
 
-bindkey jk vi-cmd-mode
+# bindkey jk vi-cmd-mode
 bindkey ',' autosuggest-accept
 
 
