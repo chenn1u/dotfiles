@@ -3,6 +3,7 @@ set relativenumber
 set clipboard+=unnamed
 set surround
 set commentary
+set timeoutlen=300
 
 inoremap jk <Esc>
 inoremap ff <Esc>la
